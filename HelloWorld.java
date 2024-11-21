@@ -1,6 +1,10 @@
 // HelloWorld.java
+import java.util.Scanner;
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        Scanner sc = new Scanner(System.in);
+        int n=sc.nextInt();
+        for(int i=0;i<n;i++)
+            System.out.println("Hello, World! Manoj & Somu");
     }
 }
